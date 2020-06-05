@@ -1,11 +1,8 @@
 import React from 'react'
 
 class CoordinatesButton extends React.Component {
-  constructor(props) {
-      super()
-      this.state = {
-        onRecieveCoordinates: props.onRecieveCoordinates
-      }
+  handleSubmit = event => {
+    
   }
   
   render() {
