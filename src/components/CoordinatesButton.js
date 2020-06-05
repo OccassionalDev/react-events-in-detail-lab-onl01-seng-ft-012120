@@ -6,7 +6,9 @@ class CoordinatesButton extends React.Component {
   }
   
   render() {
-    
+    return (
+      <button onClick={ this.handleClick }>Button</button>
+      )
   }
 }
 
